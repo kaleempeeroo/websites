@@ -1,6 +1,7 @@
 :root {
     --menu-background: #1D2738;
     --menu-font: 'Poppins', sans-serif;
+    --menu-font-color: #505050;
 }
 
 * {
@@ -16,6 +17,10 @@ header {
 
 nav {
     float: right;
+    font-family: var(--menu-font);
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--menu-font-color);
 }
 
 logo {
@@ -25,21 +30,26 @@ logo {
 nav ul {
     list-style: none;         
     position: relative; 
+
     
 }
 
 nav ul li {
     float: left;    
-    padding: 0px 5px;
+    padding: 0px 15px;
     text-transform: uppercase;
     line-height: 115px;
 }
 
 nav ul li a {    
     text-decoration: none;
-    background: pink;    
     display: block;
     padding: 10px 5px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #18ba60;
 }
 
 nav li ul li {    
@@ -61,22 +71,17 @@ nav li:hover > ul {
 nav li ul li a {    
     width: 300px;
     background: var(--menu-background);   
-    font-family: var(--menu-font);
     padding: 0px 0px 0px 15px;
 	line-height: 45px;
 	border-bottom: 1px solid #2d374a;
 	color: #ffffff;
     font-size: 13px;
     letter-spacing: 1px;
-    /*
-    color: #fff;
-	
-    line-height: 1.5em;
-    border-bottom: 1px solid #fff;
-    */
+    transition: background-color .5s ease-in-out;
 }
 
 nav li ul li > a:hover {
     background-color: #18ba60;
 	color: #ffffff;
+    opacity: 1;
 }
