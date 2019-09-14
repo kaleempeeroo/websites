@@ -1,0 +1,82 @@
+:root {
+    --menu-background: #1D2738;
+    --menu-font: 'Poppins', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    
+    width: 800px;
+    height: 350px;
+}
+
+nav {
+    float: right;
+}
+
+logo {
+    float: left;
+}
+
+nav ul {
+    list-style: none;         
+    position: relative; 
+    
+}
+
+nav ul li {
+    float: left;    
+    padding: 0px 5px;
+    text-transform: uppercase;
+    line-height: 115px;
+}
+
+nav ul li a {    
+    text-decoration: none;
+    background: pink;    
+    display: block;
+    padding: 10px 5px;
+}
+
+nav li ul li {    
+    float: none;    
+    padding: 0;
+    
+}
+
+nav li > ul {
+    display: none;
+    position: absolute;
+}
+
+nav li:hover > ul {
+    display: inline-block;
+
+}
+
+nav li ul li a {    
+    width: 300px;
+    background: var(--menu-background);   
+    font-family: var(--menu-font);
+    padding: 0px 0px 0px 15px;
+	line-height: 45px;
+	border-bottom: 1px solid #2d374a;
+	color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    /*
+    color: #fff;
+	
+    line-height: 1.5em;
+    border-bottom: 1px solid #fff;
+    */
+}
+
+nav li ul li > a:hover {
+    background-color: #18ba60;
+	color: #ffffff;
+}
