@@ -29,8 +29,6 @@ logo {
 
 nav ul {
     list-style: none;         
-    position: relative; 
-
     
 }
 
@@ -39,6 +37,7 @@ nav ul li {
     padding: 0px 15px;
     text-transform: uppercase;
     line-height: 115px;
+    position: relative; 
 }
 
 nav ul li a {    
@@ -46,6 +45,8 @@ nav ul li a {
     display: block;
     padding: 10px 5px;
     transition: color 0.3s ease-in-out;
+    
+
 }
 
 nav ul li a:hover {
@@ -59,12 +60,19 @@ nav li ul li {
 }
 
 nav li > ul {
-    display: none;
+    /* display: none; */
     position: absolute;
+    top: 120%;
+    opacity: 0;
+    transition: top 0.2s ease-in;
+    z-index: -999;
 }
 
 nav li:hover > ul {
     display: inline-block;
+    opacity: 1;
+    top: 100%;
+    z-index: 999;
 
 }
 
@@ -83,5 +91,4 @@ nav li ul li a {
 nav li ul li > a:hover {
     background-color: #18ba60;
 	color: #ffffff;
-    opacity: 1;
 }
