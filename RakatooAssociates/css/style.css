@@ -2,17 +2,21 @@
     --menu-background: #1D2738;
     --menu-font: 'Poppins', sans-serif;
     --menu-font-color: #505050;
+    --showcase-font: 'Raleway', sans-serif;
 }
 
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;    
 }
 
 header {
-    
-    width: 800px;
-    height: 350px;
+    position: absolute;
+    width: 100vw;
+    /*
+    height: 15vh;
+    */
 }
 
 nav {
@@ -20,7 +24,10 @@ nav {
     font-family: var(--menu-font);
     font-size: 14px;
     font-weight: bold;
-    color: var(--menu-font-color);
+    color: var(--menu-font-color); 
+    margin-right: 150px;
+    border-bottom: 1px solid #eee;    
+
 }
 
 logo {
@@ -29,7 +36,6 @@ logo {
 
 nav ul {
     list-style: none;         
-    
 }
 
 nav ul li {
@@ -38,6 +44,7 @@ nav ul li {
     text-transform: uppercase;
     line-height: 115px;
     position: relative; 
+
 }
 
 nav ul li a {    
@@ -45,7 +52,7 @@ nav ul li a {
     display: block;
     padding: 10px 5px;
     transition: color 0.3s ease-in-out;
-    
+    color: #ffffff;     
 
 }
 
@@ -64,16 +71,17 @@ nav li > ul {
     position: absolute;
     top: 120%;
     opacity: 0;
-    transition: top 0.2s ease-in;
+    border-top: 0px;
+    transition: top 0.2s ease-in, border-top 0.35s ease-in;
     z-index: -999;
 }
 
 nav li:hover > ul {
     display: inline-block;
     opacity: 1;
+    border-top: 1px solid #eee;
     top: 100%;
     z-index: 999;
-
 }
 
 nav li ul li a {    
@@ -91,4 +99,47 @@ nav li ul li a {
 nav li ul li > a:hover {
     background-color: #18ba60;
 	color: #ffffff;
+}
+
+#showcase {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/joJvfijEc4s/1600*900");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    z-index:-1;  
+    position:relative;
+    font-family: var(--showcase-font); 
+    font-size: 2.5rem;
+}
+
+#showcase .container {
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    width: 85vw;
+    height: 75vh;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+#showcase .body {
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: green;
+}
+
+#showcase .body span {
+    font-family: Semi-Bold;
+}
+
+body {
+    
+
 }
