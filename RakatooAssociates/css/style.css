@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+body {
+    
+}
+
 header,
 nav,
 section {
@@ -444,16 +448,133 @@ nav li:nth-child(5)>ul li a {
 }
 
 /* -------------------------  Services Section --------------------------- */
+
 #services {
     margin-top: 10em;
 }
+
 #services h2 {
-    text-align: left;
     font-size: 32px;
     font-weight: 600;
-    padding: 20px 0;
+    padding: 30px 0;
     color: #222222;
+    font-family: 'Poppins';
+    margin-left: 20px;
     position: relative;
+}
+
+#services h2::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    background-color: #18ba60;
+    bottom: 0px;
+    left: 0;
+    border-radius: 2px;    
+}
+
+.itembox {
+    width:32%;
+    height:200px;
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.itembox .title {
+    position: absolute;
+    left:30%;
+    top: 20%;
+}
+
+.itembox .description {
+    position: absolute;
+    left:30%;
+    top: 35%;
+    padding-top: 5px;
+}
+
+.icon-rounded::after {
+    content: '';    
+    height: 54px;
+    width: 54px;
+    position: absolute;
+    left:17px;
+    top: 60px;
+    border-radius: 2px;
+    background-color: #18ba60;
+    transform: rotate(45deg);
+    border: 2px solid black;
+}
+
+.icon-rounded::before {
+    font-family: "Ionicons";
+    color:white;
+    font-size: 28px; 
+    z-index: 10;
+    position: absolute;
+    left:35px;
+    top: 73px;
+}
+
+.icon-rounded.ion-clipboard::before {
+    content: "\f127";    
+}
+
+.icon-rounded.line-chart::before {
+    content: "\f262";
+    left: 30px;
+}
+
+.icon-rounded.clock::before {
+    content: "\f35a";
+    left:33px;
+}
+
+.icon-rounded.magic::before {
+    content: "\f358";
+    left:33px;
+}
+
+.icon-rounded.artboard::before {
+    content: "\f3c2";
+    left:33px;
+}
+
+.icon-rounded.global::before {
+    content: "\f38c";
+    left:33px;
+}
+
+#services .itembox .description {
+    font: 14px/24px "Poppins", sans-serif;
+    color: #666666;
+}
+
+#services .itembox .title   {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #222222;
+    font-family:  "Poppins", sans-serif;
+    font-size: 14px/24px;
+}
+
+.iconbox:hover .icon-rounded:after {
+    background-color: #2e363a;
+
+}
+
+.iconbox a {
+    transition: 1s color ease-in-out;
+    text-decoration: none;
+    color: #2e363a;;
+}
+
+.iconbox a:hover {
+    color: #18ba60;
 }
 
 /* -------------------------  Media (IE) --------------------------- */
