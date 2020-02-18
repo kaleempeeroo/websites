@@ -6,14 +6,11 @@
 }
 
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
-body {
-    
-}
 
 header,
 nav,
@@ -117,7 +114,7 @@ nav li:nth-child(5)>ul li a {
     background-size: cover;
     background-attachment: fixed;
     opacity: 0.8;
-    position: relative;        
+    position: relative;
 }
 
 #showcase .container {
@@ -129,6 +126,7 @@ nav li:nth-child(5)>ul li a {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 /*
 #showcase .body, #image_separator.body {
     text-align: center;
@@ -141,7 +139,8 @@ nav li:nth-child(5)>ul li a {
 */
 
 
- #showcase .body, #image_separator .body {
+#showcase .body,
+#image_separator .body {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -149,7 +148,7 @@ nav li:nth-child(5)>ul li a {
     transform: translate(-50%, -50%);
     color: white;
     font-family: var(--showcase-font);
-    font-size: 2.5rem;    
+    font-size: 2.5rem;
 }
 
 #showcase .body {
@@ -260,13 +259,13 @@ nav li:nth-child(5)>ul li a {
     height: 1700px;
 }
 
-/* height determines the point where the image-title banner over the image disappears at the bottom */ 
+/* height determines the point where the image-title banner over the image disappears at the bottom */
 
 .col-md-4 {
     float: left;
     width: 27vw;
     height: 280px;
-    position: relative;   
+    position: relative;
     margin-top: 10em;
 }
 
@@ -274,7 +273,7 @@ nav li:nth-child(5)>ul li a {
     margin-left: 15px;
 }
 
-.imagebox-item {
+#overview .imagebox-item {
     /* border: 1px solid black; */
     max-width: 27vw;
     position: absolute;
@@ -283,14 +282,14 @@ nav li:nth-child(5)>ul li a {
     height: inherit;
 }
 
-.imagebox-item .imagebox-image img {
+#overview .imagebox-item .imagebox-image img {
     /* border: 1px solid yellow; */
     max-width: 27vw;
     padding: 5px;
 
 }
 
-.image-title {
+#overview .image-title {
     position: absolute;
     padding: 10px 40px 11px 20px;
     background: rgba(65, 84, 100, 0.85);
@@ -322,7 +321,7 @@ nav li:nth-child(5)>ul li a {
     right: 10px;
 }
 
-.imagebox-content {
+#overview .imagebox-content {
     background: rgba(65, 84, 100, 0.85);
     max-width: 27vw;
     width: 27vw;
@@ -338,20 +337,20 @@ nav li:nth-child(5)>ul li a {
     transition: top 3s;*/
 }
 
-.imagebox-item:hover .image-title {
+#overview .imagebox-item:hover .image-title {
     bottom: -50px;
     visibility: hidden;
     opacity: 0.9;
 }
 
-.imagebox-item:hover .imagebox-content {
+#overview .imagebox-item:hover .imagebox-content {
     top: 25px;
     visibility: visible;
     height: 100%;
-  
+
 }
 
-.imagebox-desc {
+#overview .imagebox-desc {
     font-family: Poppins;
     color: #fff;
     font-size: 14px;
@@ -375,7 +374,7 @@ nav li:nth-child(5)>ul li a {
     font-weight: 600;
     margin-left: 30px;
     opacity: 0;
-    visibility: hidden; 
+    visibility: hidden;
     transition: all 0.4s ease-in-out;
 }
 
@@ -388,41 +387,35 @@ nav li:nth-child(5)>ul li a {
 .imagebox-button:hover a {
     color: black;
 }
-.imagebox-content .imagebox-button:hover
-{
+
+.imagebox-content .imagebox-button:hover {
     background: white;
-    
+
 }
 
-/*
-.imagebox-content .imagebox-button a:hover {
-    color: white;
-}
-*/
-
-.imagebox-content .imagebox-button:hover a::before {    
+#overview .imagebox-content .imagebox-button:hover a::before {
     color: black;
 }
 
 
-.imagebox-content .imagebox-button a::before {
+#overview .imagebox-content .imagebox-button a::before {
     content: "\f054";
     font-family: "FontAwesome";
     position: absolute;
     top: 50%;
-    right: 30px;   
+    right: 30px;
     transform: translateY(-50%);
     color: #ffffff;
     font-size: 12px;
 }
 
-.imagebox-item:hover .imagebox-desc  {
+#overview .imagebox-item:hover .imagebox-desc {
     visibility: visible;
     opacity: 1;
 }
 
 
-.imagebox-content:hover .imagebox-button {
+#overview .imagebox-content:hover .imagebox-button {
     opacity: 1;
     visibility: visible;
 }
@@ -438,7 +431,7 @@ nav li:nth-child(5)>ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;  
+    position: relative;
     margin-top: 10em;
     opacity: 0.8;
 }
@@ -471,12 +464,12 @@ nav li:nth-child(5)>ul li a {
     background-color: #18ba60;
     bottom: 0px;
     left: 0;
-    border-radius: 2px;    
+    border-radius: 2px;
 }
 
 .itembox {
-    width:32%;
-    height:200px;
+    width: 32%;
+    height: 200px;
     position: relative;
     float: left;
     margin-top: 0px;
@@ -485,23 +478,23 @@ nav li:nth-child(5)>ul li a {
 
 .itembox .title {
     position: absolute;
-    left:30%;
+    left: 30%;
     top: 20%;
 }
 
 .itembox .description {
     position: absolute;
-    left:30%;
+    left: 30%;
     top: 35%;
     padding-top: 5px;
 }
 
 .icon-rounded::after {
-    content: '';    
+    content: '';
     height: 54px;
     width: 54px;
     position: absolute;
-    left:17px;
+    left: 17px;
     top: 60px;
     border-radius: 2px;
     background-color: #18ba60;
@@ -511,16 +504,16 @@ nav li:nth-child(5)>ul li a {
 
 .icon-rounded::before {
     font-family: "Ionicons";
-    color:white;
-    font-size: 28px; 
+    color: white;
+    font-size: 28px;
     z-index: 10;
     position: absolute;
-    left:35px;
+    left: 35px;
     top: 73px;
 }
 
 .icon-rounded.ion-clipboard::before {
-    content: "\f127";    
+    content: "\f127";
 }
 
 .icon-rounded.line-chart::before {
@@ -530,22 +523,22 @@ nav li:nth-child(5)>ul li a {
 
 .icon-rounded.clock::before {
     content: "\f35a";
-    left:33px;
+    left: 33px;
 }
 
 .icon-rounded.magic::before {
     content: "\f358";
-    left:33px;
+    left: 33px;
 }
 
 .icon-rounded.artboard::before {
     content: "\f3c2";
-    left:33px;
+    left: 33px;
 }
 
 .icon-rounded.global::before {
     content: "\f38c";
-    left:33px;
+    left: 33px;
 }
 
 #services .itembox .description {
@@ -553,12 +546,12 @@ nav li:nth-child(5)>ul li a {
     color: #666666;
 }
 
-#services .itembox .title   {
+#services .itembox .title {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
     color: #222222;
-    font-family:  "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 14px/24px;
 }
 
@@ -570,12 +563,165 @@ nav li:nth-child(5)>ul li a {
 .iconbox a {
     transition: 1s color ease-in-out;
     text-decoration: none;
-    color: #2e363a;;
+    color: #2e363a;
 }
 
 .iconbox a:hover {
     color: #18ba60;
 }
+
+
+/* -------------------------  Projects Slider Section --------------------------- */
+
+#slide-container {
+    /*
+    width: 900px;
+    height: 200px;
+    */
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+    border: 2px solid yellow;
+}
+
+#image-container {
+    /*
+    width: 4200px;
+    height: 100px;
+    */
+    width: 3000px;
+    height: auto;
+    position: relative;
+    /*
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation: slider 10s infinite ease-in-out;
+  */
+}
+
+#image-container img {
+    /*
+    width: 300px;
+    margin-right: -4px;
+    */
+    width: 400px;
+    height: auto;
+    margin-right: -4px;
+    position: relative;
+}
+
+#projects .imagebox-content {
+    background-color: rgba(18, 29, 47, 0.9);
+    max-width: 27vw;
+    width: 27vw;
+    height: 130%;
+    opacity: 0;
+    transition: all 0.9s ease;
+    text-align: center;
+}
+
+#projects .imagebox-item:hover .imagebox-content {
+    opacity: 1;
+}
+
+
+#projects .imagebox-desc {
+    height: 30%;
+    width: 50%;
+    display: inline-block;
+    top: 90%;
+    left: 50%;
+    margin: -15% 0 0 -25%;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    
+}
+#projects .imagebox-desco {
+    height: 30%;
+    width: 50%;
+    display: inline-block;
+    top: 70%;
+    left: 50%;
+    margin: -15% 0 0 -25%;
+    position: absolute;
+    transition: all 1.2s ease 0s;
+    
+}
+
+#projects .imagebox-desc a,
+#projects .imagebox-desco a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.5s ease-in;
+    font-size: 24px;
+    font-weight: 600; 
+}
+
+#projects .imagebox-desco a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#projects .imagebox-desc a:hover {
+    color: #18ba60;
+}
+
+#projects .imagebox-item:hover .imagebox-desco  {
+    top: 80%;
+}
+    
+
+#projects .imagebox-item:hover .imagebox-desc  {
+    top: 50%;    
+}
+
+#projects .fas {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    color: #ffffff;
+    right:5%;
+    top:3%;
+    position: absolute;
+    font-size: 20px;
+}
+
+
+
+@keyframes slider {
+
+    /*
+    0%, 10%, 20%  { left: 0px;}
+    30%, 40%, 50%  { left: -300px;}
+    60%, 70%, 80% { left: -600px;}
+    85%, 90%, 100%  {left: -900px;}    */
+   
+}
+
+#projects h2 {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 30px 0;
+    color: #222222;
+    font-family: 'Poppins';
+    margin-left: 20px;
+    position: relative;
+}
+
+#projects h2::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    background-color: #18ba60;
+    bottom: 0px;
+    left: 0;
+    border-radius: 2px;
+}
+
 
 /* -------------------------  Media (IE) --------------------------- */
 
@@ -621,5 +767,3 @@ nav li:nth-child(5)>ul li a {
         font-size: 1.5rem;
     }
 }
-
-
