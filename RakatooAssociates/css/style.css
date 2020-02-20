@@ -273,8 +273,7 @@ nav li:nth-child(5)>ul li a {
     margin-left: 15px;
 }
 
-#overview .imagebox-item {
-    /* border: 1px solid black; */
+#overview .container .col-md-4 .imagebox-item {
     max-width: 27vw;
     position: absolute;
     padding-top: 20px;
@@ -283,7 +282,6 @@ nav li:nth-child(5)>ul li a {
 }
 
 #overview .imagebox-item .imagebox-image img {
-    /* border: 1px solid yellow; */
     max-width: 27vw;
     padding: 5px;
 
@@ -590,44 +588,58 @@ nav li:nth-child(5)>ul li a {
     height: 100px;
     */
     width: 3000px;
-    height: auto;
+    height: 300px;
     position: relative;
-    /*
     animation-name: slider;
     animation-duration: 10s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation: slider 10s infinite ease-in-out;
-  */
+  
 }
 
-#image-container img {
-    /*
-    width: 300px;
-    margin-right: -4px;
-    */
+#projects #image-container .imagebox-item {
     width: 400px;
-    height: auto;
-    margin-right: -4px;
+    height: 300px;
     position: relative;
+    float: left;
+    
 }
 
-#projects .imagebox-content {
+#projects #image-container .imagebox-content {
     background-color: rgba(18, 29, 47, 0.9);
-    max-width: 27vw;
-    width: 27vw;
+    max-width: 400px;
+    width: 400px;
     height: 130%;
     opacity: 0;
     transition: all 0.9s ease;
     text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
-#projects .imagebox-item:hover .imagebox-content {
+#projects .imagebox-item .imagebox-image img { 
+    max-width: 400px;  
+    padding: 0px; 
+}
+
+#projects #image-container .imagebox-item:hover .imagebox-content {
     opacity: 1;
 }
 
-
 #projects .imagebox-desc {
+    height: 30%;
+    width: 50%;
+    display: inline-block;
+    top: 80%;
+    left: 50%;
+    margin: -15% 0 0 -25%;
+    position: absolute;
+    transition: all 0.7s ease 0s;
+}
+
+#projects .imagebox-desco {
     height: 30%;
     width: 50%;
     display: inline-block;
@@ -635,18 +647,7 @@ nav li:nth-child(5)>ul li a {
     left: 50%;
     margin: -15% 0 0 -25%;
     position: absolute;
-    transition: all 0.5s ease 0s;
-    
-}
-#projects .imagebox-desco {
-    height: 30%;
-    width: 50%;
-    display: inline-block;
-    top: 70%;
-    left: 50%;
-    margin: -15% 0 0 -25%;
-    position: absolute;
-    transition: all 1.2s ease 0s;
+    transition: all 1.0s ease 0s;
     
 }
 
@@ -669,7 +670,7 @@ nav li:nth-child(5)>ul li a {
 }
 
 #projects .imagebox-item:hover .imagebox-desco  {
-    top: 80%;
+    top: 70%;
 }
     
 
@@ -693,11 +694,11 @@ nav li:nth-child(5)>ul li a {
 
 @keyframes slider {
 
-    /*
+    
     0%, 10%, 20%  { left: 0px;}
-    30%, 40%, 50%  { left: -300px;}
-    60%, 70%, 80% { left: -600px;}
-    85%, 90%, 100%  {left: -900px;}    */
+    30%, 40%, 50%  { left: -400px;}
+    60%, 70%, 80% { left: -800px;}
+    85%, 90%, 100%  {left: -1200px;}    
    
 }
 
