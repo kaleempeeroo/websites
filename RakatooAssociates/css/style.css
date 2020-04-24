@@ -266,7 +266,7 @@ nav li:nth-child(5)>ul li a {
     width: 27vw;
     height: 280px;
     position: relative;
-    margin-top: 10em;
+    margin-top: 1em;
 }
 
 .col-md-4:nth-child(1) {
@@ -441,7 +441,7 @@ nav li:nth-child(5)>ul li a {
 /* -------------------------  Services Section --------------------------- */
 
 #services {
-    margin-top: 10em;
+    margin-top: 5em;
 }
 
 #services h2 {
@@ -723,6 +723,114 @@ nav li:nth-child(5)>ul li a {
     border-radius: 2px;
 }
 
+
+/* -------------------------  Contact Form --------------------------- */
+
+#contact-form {
+    background-color: #2e363a;
+    width:100%;
+    height: 530px;    
+    margin-top: 10em;
+    padding: 50px 0;
+    position: relative;
+}
+
+#contact-form .form {
+    width:68%;
+    float: right;
+}
+
+#contact-form .contact-form-banner {
+    width:25%;
+    float: left;
+}
+
+#contact-form .contact-form-banner img {
+    width:35%;
+    position: absolute;
+    left: 0px;
+    top: -70px;
+}
+
+#contact-form h2 {
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+    font-weight: 600;
+    line-height: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contact-form .contact-form-header {
+    text-align: center;
+}
+#contact-form .text-callback-content {
+    color: #ffffff;
+    font: 14px/24px "Poppins", sans-serif;
+}
+
+#contact-form label {
+    color: #cccccc;
+    font: 14px/24px "Poppins", sans-serif;
+    margin-bottom: 10px;
+}
+
+#contact-form input[type="text"] {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    line-height: 24px;
+    padding: 8px 15px;
+    color: #222222;
+    border: 1px solid #d0d0d0;
+    height: 45px;
+    background-color: #d8e7ef;
+    font: 14px/24px "Poppins", sans-serif;
+    font-weight: 600;
+    margin-left: 60px;
+    
+}
+
+#contact-form label {
+    margin-left: 60px;
+    display: block;
+    margin-top: 10px;
+}
+
+#contact-form #message {
+    position: relative;
+    display: block;
+    width: 88%;
+    line-height: 24px;
+    padding: 8px 15px;
+    color: #222222;
+    border: 1px solid #d0d0d0;
+    background-color: #d8e7ef;
+    font: 14px/24px "Poppins", sans-serif;
+    font-weight: 600;
+    margin-left: 60px;
+    align-content: left;
+    margin-top: 20px;
+    
+}
+#contact-form button {
+    margin-top: 20px;
+    margin-left: 60px;
+    background: rgba(24, 186, 96, 0.8);
+    line-height: 42px;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    background: #18ba60;
+    border: 1px solid #18ba60;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 0px 50px;
+    height: 50px;
+    cursor: pointer;
+}
 
 /* -------------------------  Media (IE) --------------------------- */
 
