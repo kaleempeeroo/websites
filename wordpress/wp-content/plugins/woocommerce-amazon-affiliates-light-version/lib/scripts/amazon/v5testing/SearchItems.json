@@ -1,0 +1,851 @@
+{
+"Errors": [
+  {
+    "__type": "com.amazon.paapi#ErrorData",
+    "Code": "ItemNotAccessible",
+    "Message": "The ItemId B01180YUXS is not accessible through the Product Advertising API."
+  }
+],
+"SearchResult": {
+"SearchURL": "https://www.amazon.com/s/?field-keywords=Harry+Potter&search-alias=aps&tag=dgfd&linkCode=osi",
+"TotalResultCount": 146,
+"Items": [
+{
+  "ASIN": "B00KL8SM92",
+  "DetailPageURL": "https://www.amazon.com/dp/B00KL8SM92?tag=xyz-20&linkCode=ogi&language=es_US&th=1&psc=1",
+  "BrowseNodeInfo": {
+    "WebsiteSalesRank": {
+      "DisplayName": "Books",
+      "ContextFreeName": "Books",
+      "SalesRank": 197
+    },
+    "BrowseNodes": [
+      {
+        "Id": "3060",
+        "DisplayName": "Orphans & Foster Homes",
+        "ContextFreeName": "Children's Orphans & Foster Homes Books",
+        "IsRoot": false,
+        "SalesRank": 2,
+        "Ancestor": {
+          "Id": "3045",
+          "DisplayName": "Family Life",
+          "ContextFreeName": "Children's Family Life Books",
+          "Ancestor": {
+            "Id": "1084192",
+            "DisplayName": "Growing Up & Facts of Life",
+            "ContextFreeName": "Children's Growing Up & Facts of Life Books",
+            "Ancestor": {
+              "Id": "4",
+              "DisplayName": "Children's Books",
+              "ContextFreeName": "Children's Books",
+              "Ancestor": {
+                "Id": "1000",
+                "DisplayName": "Subjects",
+                "ContextFreeName": "Subjects",
+                "Ancestor": {
+                  "Id": "283155",
+                  "DisplayName": "Books",
+                  "ContextFreeName": "Books"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Id": "3153",
+        "DisplayName": "Friendship",
+        "ContextFreeName": "Children's Friendship Books",
+        "IsRoot": false,
+        "SalesRank": 5,
+        "Ancestor": {
+          "Id": "7009087011",
+          "DisplayName": "Friendship, Social Skills & School Life",
+          "ContextFreeName": "Children's Friendship & Social Skills Books",
+          "Ancestor": {
+            "Id": "1084192",
+            "DisplayName": "Growing Up & Facts of Life",
+            "ContextFreeName": "Children's Growing Up & Facts of Life Books",
+            "Ancestor": {
+              "Id": "4",
+              "DisplayName": "Children's Books",
+              "ContextFreeName": "Children's Books",
+              "Ancestor": {
+                "Id": "1000",
+                "DisplayName": "Subjects",
+                "ContextFreeName": "Subjects",
+                "Ancestor": {
+                  "Id": "283155",
+                  "DisplayName": "Books",
+                  "ContextFreeName": "Books"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Id": "15356791",
+        "DisplayName": "School",
+        "ContextFreeName": "Children's School Issues",
+        "IsRoot": false,
+        "SalesRank": 4,
+        "Ancestor": {
+          "Id": "7009087011",
+          "DisplayName": "Friendship, Social Skills & School Life",
+          "ContextFreeName": "Children's Friendship & Social Skills Books",
+          "Ancestor": {
+            "Id": "1084192",
+            "DisplayName": "Growing Up & Facts of Life",
+            "ContextFreeName": "Children's Growing Up & Facts of Life Books",
+            "Ancestor": {
+              "Id": "4",
+              "DisplayName": "Children's Books",
+              "ContextFreeName": "Children's Books",
+              "Ancestor": {
+                "Id": "1000",
+                "DisplayName": "Subjects",
+                "ContextFreeName": "Subjects",
+                "Ancestor": {
+                  "Id": "283155",
+                  "DisplayName": "Books",
+                  "ContextFreeName": "Books"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "Images": {
+    "Primary": {
+     "Small": {
+      "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL75_.jpg",
+      "Height": 75,
+      "Width": 75
+     },
+     "Medium": {
+      "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL160_.jpg",
+      "Height": 160,
+      "Width": 160
+     },
+     "Large": {
+      "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL.jpg",
+      "Height": 500,
+      "Width": 500
+     }
+    },
+    "Variants": [{
+     "Small": {
+      "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL75_.jpg",
+      "Height": 75,
+      "Width": 75
+     },
+     "Medium": {
+      "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL160_.jpg",
+      "Height": 160,
+      "Width": 160
+     },
+     "Large": {
+      "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL.jpg",
+      "Height": 500,
+      "Width": 500
+     }
+    },
+    {
+     "Small": {
+      "URL": "https://m.media-amazon.com/images/I/510CXaG2lYL._SL75_.jpg",
+      "Height": 75,
+      "Width": 75
+     },
+     "Medium": {
+      "URL": "https://m.media-amazon.com/images/I/510CXaG2lYL._SL160_.jpg",
+      "Height": 160,
+      "Width": 160
+     },
+     "Large": {
+      "URL": "https://m.media-amazon.com/images/I/510CXaG2lYL.jpg",
+      "Height": 500,
+      "Width": 500
+     }
+    },
+    {
+     "Small": {
+      "URL": "https://m.media-amazon.com/images/I/715qzsfihmL._SL75_.jpg",
+      "Height": 75,
+      "Width": 75
+     },
+     "Medium": {
+      "URL": "https://m.media-amazon.com/images/I/715qzsfihmL._SL160_.jpg",
+      "Height": 160,
+      "Width": 160
+     },
+     "Large": {
+      "URL": "https://m.media-amazon.com/images/I/715qzsfihmL.jpg",
+      "Height": 500,
+      "Width": 500
+     }
+    }]
+  },
+  "ItemInfo": {
+    "ByLineInfo": {
+      "Brand": {
+        "DisplayValue": "West Bend testprodsearch1",
+        "Label": "Brand",
+        "Locale": "en_US"
+      },
+      "Manufacturer": {
+        "DisplayValue": "West Bend Manu testprodsearch1",
+        "Label": "Manufacturer",
+        "Locale": "en_US"
+      },
+      "Contributors": [
+          {
+              "Locale": "en_US",
+              "Name": "Daniel Radcliffe",
+              "Role": "Actor"
+          },
+          {
+              "Locale": "en_US",
+              "Name": "Rupert Grint",
+              "Role": "Actor"
+          }
+      ]
+    },
+    "Classifications": {
+      "Binding": {
+        "DisplayValue": "Cocina",
+        "Label": "Binding",
+        "Locale": "es_US"
+      },
+      "ProductGroup": {
+        "DisplayValue": "Cocina PG",
+        "Label": "ProductGroup",
+        "Locale": "es_US"
+      }
+    },
+    "ContentInfo": {
+      "Edition": {
+          "DisplayValue": "Slp",
+          "Label": "Edition",
+          "Locale": "en_US"
+      },
+      "Languages": {
+          "DisplayValues": [
+              {
+                  "DisplayValue": "English",
+                  "Type": "Published"
+              },
+              {
+                  "DisplayValue": "English",
+                  "Type": "Dictionary"
+              }
+          ],
+          "Label": "Language",
+          "Locale": "en_GB"
+      },
+      "PagesCount": {
+          "DisplayValue": 4167,
+          "Label": "NumberOfPages",
+          "Locale": "en_US"
+      },
+      "PublicationDate": {
+          "DisplayValue": "2009-07-01T00:00:01Z",
+          "Label": "PublicationDate",
+          "Locale": "en_US"
+      }
+    },
+    "ContentRating": {
+      "AudienceRating": {
+        "DisplayValue": "PG (Parental Guidance Suggested)",
+        "Label": "AudienceRating",
+        "Locale": "en_GB"
+      }
+    },
+    "ExternalIds": {
+      "EANs": {
+        "DisplayValues": [
+          "0784331985907",
+          "6689306520104"
+        ],
+        "Label": "EAN",
+        "Locale": "en_US"
+      },
+      "UPCs": {
+        "DisplayValues": [
+          "885330102972",
+          "072244825053"
+        ],
+        "Label": "UPC",
+        "Locale": "en_US"
+      },
+      "ISBNs": {
+          "DisplayValues": [
+              "0545162076"
+          ],
+          "Label": "ISBN",
+          "Locale": "en_US"
+      }
+    },
+    "Features": {
+      "DisplayValues": [
+        "testprodsearch1 - Vented clear cover doubles as a 6-quart capacity popcorn bowl",
+        "testprodsearch1 - Plate is nonstick Coated for easy clean up"
+      ],
+      "Label": "Features",
+      "Locale": "en_US"
+    },
+    "ManufactureInfo": {
+      "ItemPartNumber": {
+        "DisplayValue": "82505",
+        "Label": "PartNumber",
+        "Locale": "en_US"
+      },
+      "Model": {
+        "DisplayValue": "82504",
+        "Label": "Model",
+        "Locale": "en_US"
+      },
+      "Warranty": {
+          "DisplayValue": "No Manufacturer Warranty for this phone.",
+          "Label": "Warranty",
+          "Locale": "en_US"
+      }
+    },
+    "ProductInfo": {
+      "Color": {
+        "DisplayValue": "Red",
+        "Label": "Color",
+        "Locale": "en_US"
+      },
+      "ItemDimensions": {
+        "Height": {
+          "DisplayValue": 10,
+          "Label": "Height",
+          "Locale": "en_US",
+          "Unit": "inches"
+        },
+        "Length": {
+          "DisplayValue": 11,
+          "Label": "Length",
+          "Locale": "en_US",
+          "Unit": "inches"
+        },
+        "Weight": {
+          "DisplayValue": 3.35,
+          "Label": "Weight",
+          "Locale": "en_US",
+          "Unit": "pounds"
+        },
+        "Width": {
+          "DisplayValue": 13,
+          "Label": "Width",
+          "Locale": "en_US",
+          "Unit": "inches"
+        }
+      },
+      "IsAdultProduct": {
+          "DisplayValue": false,
+          "Label": "IsAdultProduct",
+          "Locale": "en_US"
+      },
+      "ReleaseDate": {
+          "DisplayValue": "2013-03-01T00:00:00.000Z",
+          "Label": "ReleaseDate",
+          "Locale": "en_US"
+      },
+      "Size": {
+        "DisplayValue": "Stir Crazy",
+        "Label": "Size",
+        "Locale": "en_US"
+      },
+      "UnitCount": {
+        "DisplayValue": 1,
+        "Label": "NumberOfItems",
+        "Locale": "en_US"
+      }
+    },
+    "TechnicalInfo": {
+      "Formats": {
+        "DisplayValues": [
+          "Box set"
+        ],
+        "Label": "Format",
+        "Locale": "en_GB"
+      }
+    },
+    "Title": {
+      "DisplayValue": "testprodsearch1 - West Bend 82505 Stir Crazy Popcorn Popper, 6-Quart",
+      "Label": "Title",
+      "Locale": "en_US"
+    },
+    "TradeInInfo": {
+      "IsEligibleForTradeIn": true,
+      "Price": {
+        "Amount": 24.05,
+        "Currency": "USD",
+        "DisplayAmount": "$24.05"
+      }
+    }
+  }
+},
+{
+  "ASIN": "0545162076",
+  "DetailPageURL": "https://www.amazon.com/dp/0545162076?tag=dgfd&linkCode=osi",
+  "BrowseNodeInfo": {
+    "WebsiteSalesRank": {
+      "DisplayName": "Books",
+      "ContextFreeName": "Books",
+      "SalesRank": 197
+    },
+    "BrowseNodes": [
+      {
+        "Id": "3060",
+        "DisplayName": "Orphans & Foster Homes",
+        "ContextFreeName": "Children's Orphans & Foster Homes Books",
+        "IsRoot": false,
+        "SalesRank": 2,
+        "Ancestor": {
+          "Id": "3045",
+          "DisplayName": "Family Life",
+          "ContextFreeName": "Children's Family Life Books",
+          "Ancestor": {
+            "Id": "1084192",
+            "DisplayName": "Growing Up & Facts of Life",
+            "ContextFreeName": "Children's Growing Up & Facts of Life Books",
+            "Ancestor": {
+              "Id": "4",
+              "DisplayName": "Children's Books",
+              "ContextFreeName": "Children's Books",
+              "Ancestor": {
+                "Id": "1000",
+                "DisplayName": "Subjects",
+                "ContextFreeName": "Subjects",
+                "Ancestor": {
+                  "Id": "283155",
+                  "DisplayName": "Books",
+                  "ContextFreeName": "Books"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Id": "3153",
+        "DisplayName": "Friendship",
+        "ContextFreeName": "Children's Friendship Books",
+        "IsRoot": false,
+        "SalesRank": 5,
+        "Ancestor": {
+          "Id": "7009087011",
+          "DisplayName": "Friendship, Social Skills & School Life",
+          "ContextFreeName": "Children's Friendship & Social Skills Books",
+          "Ancestor": {
+            "Id": "1084192",
+            "DisplayName": "Growing Up & Facts of Life",
+            "ContextFreeName": "Children's Growing Up & Facts of Life Books",
+            "Ancestor": {
+              "Id": "4",
+              "DisplayName": "Children's Books",
+              "ContextFreeName": "Children's Books",
+              "Ancestor": {
+                "Id": "1000",
+                "DisplayName": "Subjects",
+                "ContextFreeName": "Subjects",
+                "Ancestor": {
+                  "Id": "283155",
+                  "DisplayName": "Books",
+                  "ContextFreeName": "Books"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Id": "15356791",
+        "DisplayName": "School",
+        "ContextFreeName": "Children's School Issues",
+        "IsRoot": false,
+        "SalesRank": 4,
+        "Ancestor": {
+          "Id": "7009087011",
+          "DisplayName": "Friendship, Social Skills & School Life",
+          "ContextFreeName": "Children's Friendship & Social Skills Books",
+          "Ancestor": {
+            "Id": "1084192",
+            "DisplayName": "Growing Up & Facts of Life",
+            "ContextFreeName": "Children's Growing Up & Facts of Life Books",
+            "Ancestor": {
+              "Id": "4",
+              "DisplayName": "Children's Books",
+              "ContextFreeName": "Children's Books",
+              "Ancestor": {
+                "Id": "1000",
+                "DisplayName": "Subjects",
+                "ContextFreeName": "Subjects",
+                "Ancestor": {
+                  "Id": "283155",
+                  "DisplayName": "Books",
+                  "ContextFreeName": "Books"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "Offers": {
+    "Listings": [
+      {
+        "Availability": {
+          "Message": "In Stock.",
+          "MinOrderQuantity": 1,
+          "MaxOrderQuantity": 36,
+          "Type": "Now"
+        },
+        "Condition": {
+          "DisplayValue": "nuevo",
+          "Label": "Condición",
+          "Locale": "es_US",
+          "Value": "New",
+          "SubCondition": {
+            "DisplayValue": "Bueno",
+            "Label": "SubCondición",
+            "Locale": "es_US",
+            "Value": "Good"
+          }
+        },
+        "DeliveryInfo": {
+          "IsAmazonFulfilled": true,
+          "IsFreeShippingEligible": true,
+          "IsPrimeEligible": true
+        },
+        "Id": "uXlVLdDbCfHTdwfSFF7G%2BXRQ%2BIf8pMbI9B29z2mv0j%2FlMKBGhOCuuRSa0ki%2BuUF9797EBbf%2F9BsG8swcjX6LubdAPmkHl%2Fuw6GxVI3nSInXfBzbdTRdTuQ%3D%3D",
+        "IsBuyBoxWinner": true,
+        "LoyaltyPoints": {
+          "Points": 3020
+        },
+        "MerchantInfo": {
+          "DefaultShippingCountry": "US",
+          "Id": "ATVPDKIKX0DER",
+          "Name": "Amazon.com"
+        },
+        "Price": {
+          "Amount": 39.99,
+          "Currency": "USD",
+          "DisplayAmount": "$39.99",
+          "PricePerUnit": 0.22,
+          "Savings": {
+            "Amount": 5.21,
+            "Currency": "USD",
+            "DisplayAmount": "$5.21 (15%)",
+            "PricePerUnit": 0.04,
+            "Percentage": 15
+          }
+        },
+        "ProgramEligibility": {
+          "IsPrimeExclusive": false,
+          "IsPrimePantry": false
+        },
+        "Promotions": [{
+          "Type": "SNS",
+          "Amount": 59.34,
+          "Currency": "USD",
+          "DiscountPercent": 5,
+          "DisplayAmount": "$59.34 (5%)",
+          "PricePerUnit": 0.23
+        }],
+        "SavingBasis": {
+          "Amount": 45.2,
+          "Currency": "USD",
+          "DisplayAmount": "$45.2",
+          "PricePerUnit": 0.25
+        },
+        "ViolatesMAP": false
+      }
+    ],
+    "Summaries": [
+      {
+       "Condition": {
+        "Value": "Used"
+       },
+       "HighestPrice": {
+        "Amount": 579.99,
+        "Currency": "USD",
+        "DisplayAmount": "$579.99"
+       },
+       "LowestPrice": {
+        "Amount": 578.9,
+        "Currency": "USD",
+        "DisplayAmount": "$578.90"
+       },
+       "OfferCount": 2
+      },
+      {
+        "Condition": {
+          "DisplayValue": "nuevo",
+          "Label": "Condición",
+          "Locale": "es_US",
+          "Value": "New"
+        },
+        "HighestPrice": {
+          "Amount": 293.26,
+          "Currency": "USD",
+          "DisplayAmount": "$293.26",
+          "PricePerUnit": 0.31
+        },
+        "LowestPrice": {
+          "Amount": 23,
+          "Currency": "USD",
+          "DisplayAmount": "$23.00",
+          "PricePerUnit": 0.21
+        },
+        "OfferCount": 45
+      }
+    ]
+  },
+  "Images": {
+    "Primary": {
+     "Small": {
+      "URL": "https://m.media-amazon.com/images/I/51BBTJaU6QL._SL75_.jpg",
+      "Height": 75,
+      "Width": 75
+     },
+     "Medium": {
+      "URL": "https://m.media-amazon.com/images/I/51BBTJaU6QL._SL160_.jpg",
+      "Height": 160,
+      "Width": 160
+     },
+     "Large": {
+      "URL": "https://m.media-amazon.com/images/I/51BBTJaU6QL.jpg",
+      "Height": 500,
+      "Width": 500
+     }
+    },
+    "Variants": [{
+     "Small": {
+      "URL": "https://m.media-amazon.com/images/I/51qMJn9tcHL._SL75_.jpg",
+      "Height": 75,
+      "Width": 75
+     },
+     "Medium": {
+      "URL": "https://m.media-amazon.com/images/I/51qMJn9tcHL._SL160_.jpg",
+      "Height": 160,
+      "Width": 160
+     },
+     "Large": {
+      "URL": "https://m.media-amazon.com/images/I/51qMJn9tcHL.jpg",
+      "Height": 500,
+      "Width": 500
+     }
+    }]
+  },
+  "ItemInfo": {
+    "ByLineInfo": {
+      "Brand": {
+        "DisplayValue": "West Bend testprodsearch2",
+        "Label": "Brand",
+        "Locale": "en_US"
+      },
+      "Manufacturer": {
+        "DisplayValue": "West Bend Manu testprodsearch2",
+        "Label": "Manufacturer",
+        "Locale": "en_US"
+      },
+      "Contributors": [
+          {
+              "Locale": "en_US",
+              "Name": "Daniel Radcliffe",
+              "Role": "Actor"
+          },
+          {
+              "Locale": "en_US",
+              "Name": "Rupert Grint",
+              "Role": "Actor"
+          }
+      ]
+    },
+    "Classifications": {
+      "Binding": {
+        "DisplayValue": "Cocina",
+        "Label": "Binding",
+        "Locale": "es_US"
+      },
+      "ProductGroup": {
+        "DisplayValue": "Cocina PG",
+        "Label": "ProductGroup",
+        "Locale": "es_US"
+      }
+    },
+    "ContentInfo": {
+      "Edition": {
+          "DisplayValue": "Slp",
+          "Label": "Edition",
+          "Locale": "en_US"
+      },
+      "Languages": {
+          "DisplayValues": [
+              {
+                  "DisplayValue": "English",
+                  "Type": "Published"
+              },
+              {
+                  "DisplayValue": "English",
+                  "Type": "Dictionary"
+              }
+          ],
+          "Label": "Language",
+          "Locale": "en_GB"
+      },
+      "PagesCount": {
+          "DisplayValue": 4167,
+          "Label": "NumberOfPages",
+          "Locale": "en_US"
+      },
+      "PublicationDate": {
+          "DisplayValue": "2009-07-01T00:00:01Z",
+          "Label": "PublicationDate",
+          "Locale": "en_US"
+      }
+    },
+    "ContentRating": {
+      "AudienceRating": {
+        "DisplayValue": "PG (Parental Guidance Suggested)",
+        "Label": "AudienceRating",
+        "Locale": "en_GB"
+      }
+    },
+    "ExternalIds": {
+      "EANs": {
+        "DisplayValues": [
+          "0784331985907",
+          "6689306520104"
+        ],
+        "Label": "EAN",
+        "Locale": "en_US"
+      },
+      "UPCs": {
+        "DisplayValues": [
+          "885330102972",
+          "072244825053"
+        ],
+        "Label": "UPC",
+        "Locale": "en_US"
+      },
+      "ISBNs": {
+          "DisplayValues": [
+              "0545162076"
+          ],
+          "Label": "ISBN",
+          "Locale": "en_US"
+      }
+    },
+    "Features": {
+      "DisplayValues": [
+        "testprodsearch2 - Vented clear cover doubles as a 6-quart capacity popcorn bowl",
+        "testprodsearch2 - Plate is nonstick Coated for easy clean up"
+      ],
+      "Label": "Features",
+      "Locale": "en_US"
+    },
+    "ManufactureInfo": {
+      "ItemPartNumber": {
+        "DisplayValue": "82505",
+        "Label": "PartNumber",
+        "Locale": "en_US"
+      },
+      "Model": {
+        "DisplayValue": "82504",
+        "Label": "Model",
+        "Locale": "en_US"
+      },
+      "Warranty": {
+          "DisplayValue": "No Manufacturer Warranty for this phone.",
+          "Label": "Warranty",
+          "Locale": "en_US"
+      }
+    },
+    "ProductInfo": {
+      "Color": {
+        "DisplayValue": "Red",
+        "Label": "Color",
+        "Locale": "en_US"
+      },
+      "ItemDimensions": {
+        "Height": {
+          "DisplayValue": 10,
+          "Label": "Height",
+          "Locale": "en_US",
+          "Unit": "inches"
+        },
+        "Length": {
+          "DisplayValue": 11,
+          "Label": "Length",
+          "Locale": "en_US",
+          "Unit": "inches"
+        },
+        "Weight": {
+          "DisplayValue": 3.35,
+          "Label": "Weight",
+          "Locale": "en_US",
+          "Unit": "pounds"
+        },
+        "Width": {
+          "DisplayValue": 13,
+          "Label": "Width",
+          "Locale": "en_US",
+          "Unit": "inches"
+        }
+      },
+      "IsAdultProduct": {
+          "DisplayValue": false,
+          "Label": "IsAdultProduct",
+          "Locale": "en_US"
+      },
+      "ReleaseDate": {
+          "DisplayValue": "2013-03-01T00:00:00.000Z",
+          "Label": "ReleaseDate",
+          "Locale": "en_US"
+      },
+      "Size": {
+        "DisplayValue": "Stir Crazy",
+        "Label": "Size",
+        "Locale": "en_US"
+      },
+      "UnitCount": {
+        "DisplayValue": 1,
+        "Label": "NumberOfItems",
+        "Locale": "en_US"
+      }
+    },
+    "TechnicalInfo": {
+      "Formats": {
+        "DisplayValues": [
+          "Box set"
+        ],
+        "Label": "Format",
+        "Locale": "en_GB"
+      }
+    },
+    "Title": {
+      "DisplayValue": "testprodsearch2 - Harry Potter Paperback Box Set (Books 1-7)",
+      "Label": "Title",
+      "Locale": "en_US"
+    },
+    "TradeInInfo": {
+      "IsEligibleForTradeIn": true,
+      "Price": {
+        "Amount": 24.05,
+        "Currency": "USD",
+        "DisplayAmount": "$24.05"
+      }
+    }
+  }
+}
+]
+}
+}

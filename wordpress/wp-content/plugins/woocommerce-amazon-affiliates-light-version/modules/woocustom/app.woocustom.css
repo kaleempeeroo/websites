@@ -1,0 +1,370 @@
+/* adding custom product info on the edit product page */
+.wp-core-ui .woocommerce_variations .woocommerce_variation .WooZoneLite_asin {
+	margin-top: 8px;
+}
+	.wp-core-ui .woocommerce_variations .woocommerce_variation .WooZoneLite_asin a {
+		margin-left: 10px;
+		vertical-align: bottom;
+	}
+.wp-core-ui .WooZoneLite_asin_field a.button.button-primary {
+	display: inline-block;
+	margin-left: 7px;
+}
+
+/* adding custom product info on the product listing page */
+th#WooZoneLite_product_info {
+	width: 170px; 
+}
+	td.WooZoneLite_product_info .WooZoneLiteWoocustomFields img,
+	td.WooZoneLite_product_info .WooZoneLiteWoocustomFields span,
+	td.WooZoneLite_product_info .WooZoneLiteWoocustomFields a {
+		display: inline-block;
+	}
+	td.WooZoneLite_product_info .WooZoneLiteWoocustomFields img {
+		margin: 0px;
+	}
+	td.WooZoneLite_product_info .WooZoneLiteWoocustomFields a {
+		margin-left: 4px;
+	}
+	td.WooZoneLite_product_info .WooZoneLiteWoocustomFields span:first-of-type {
+		color: green;
+		font-weight: bold;
+		font-size: 14px;
+	}
+	td.WooZoneLite_product_info .WooZoneLiteWoocustomFields span:last-of-type {
+		margin-left: 1px;
+	}
+	
+
+/* woocommerce fix thumb for remote images with https - on product listing page - admin product listing wp-admin/edit.php?post_type=product */
+table.wp-list-table .column-thumb_woozonelite {
+	width: 52px;
+	text-align: center;
+	white-space: nowrap;
+}
+	table.wp-list-table td.column-thumb_woozonelite img {
+		margin: 0;
+		width: auto;
+		height: auto;
+		max-width: 40px;
+		max-height: 40px;
+		vertical-align: middle;
+	}
+
+table.wp-list-table .column-price_woozonelite {
+	width: 15rem;
+}
+
+
+
+
+/***********************************************/
+/* ADMIN ORDER DETAILS PAGE
+/***********************************************/
+
+/* Country Flags */
+.WooZoneLite-country-check li .WooZoneLite-cc_domain:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain:before {
+	display: inline-block;
+	margin-right: 11px;
+	width: 16px;
+}
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain:before {
+	margin-right: 4px;
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.com:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain.com:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.com:before {
+	content: url(flags/us.png);
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.co-uk:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain.co-uk:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.co-uk:before {
+	content: url(flags/uk.png);
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.de:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain.de:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.de:before {
+	content: url(flags/de.png);
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.fr:before,
+.WooZoneLite-country-check-small span .WooZoneLite-cc_domain.fr:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.fr:before {
+	content: url(flags/fr.png);
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.co-jp:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain.co-jp:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.co-jp:before {
+	content: url(flags/jp.png);
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.ca:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain.ca:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.ca:before {
+	content: url(flags/ca.png);
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.cn:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain.cn:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.cn:before {
+	content: url(flags/cn.png);
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.in:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain.in:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.in:before {
+	content: url(flags/in.png);
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.it:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain.it:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.it:before {
+	content: url(flags/it.png);
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.es:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain.es:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.es:before {
+	content: url(flags/es.png);
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.com-mx:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain.com-mx:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.com-mx:before {
+	content: url(flags/mx.png);
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.com-br:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain.com-br:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.com-br:before {
+	content: url(flags/br.png);
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.com-au:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain.com-au:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.com-au:before {
+	content: url(flags/au.png);
+}
+
+.WooZoneLite-country-check li .WooZoneLite-cc_domain.ae:before,
+.WooZoneLite-country-check-small .WooZoneLite-cc_domain.ae:before,
+.WooZoneLite-cart-checkout .WooZoneLite-cc_domain.ae:before {
+	content: url(flags/ae.png);
+}
+
+/* From Cart page - box amazon shops */
+.WooZoneLite-cart-checkout {
+	border: 1px solid #e0dede;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	overflow: hidden;
+	padding: 19px 29px;
+	position: relative;
+}
+	.WooZoneLite-cart-checkout .WooZoneLite-cc_status,
+	.WooZoneLite-cart-checkout .WooZoneLite-cart-msg {
+		font-size: 14px;
+		color: #747474;
+	}
+	.WooZoneLite-cart-checkout .WooZoneLite-cc_status.success,
+	.WooZoneLite-cart-checkout .WooZoneLite-cart-msg .success {
+		color: #2ecc71;
+		font-weight:bold;
+		background-image: url(images/available-yes.png);
+		background-position: 95% 50%;
+		background-repeat:no-repeat;
+		padding-right:30px;
+	}
+	.WooZoneLite-cart-checkout .WooZoneLite-cc_status.cancel,
+	.WooZoneLite-cart-checkout .WooZoneLite-cart-msg .cancel {
+		color: #e74c3c;
+	}
+	.WooZoneLite-cart-checkout ul.WooZoneLite-cart-shops {
+		margin: 0px;
+	}
+		.WooZoneLite-cart-checkout ul.WooZoneLite-cart-shops li {
+			color: #747474;
+			display: block;
+			font-size: 15px;
+			line-height: 55px;
+			list-style-type: none;
+			min-width: 280px;
+		}
+			.WooZoneLite-cart-checkout ul.WooZoneLite-cart-shops li form {
+				display: inline-block;
+			}
+			.WooZoneLite-cart-checkout .WooZoneLite-button {
+				background: #232f3e none repeat scroll 0 0;
+				border: 0 none;
+				border-radius: 0.5rem;
+				color: #fff;
+				font-size: 1.4rem;
+				font-weight: 500;
+				padding: 6px 12px 6px 36px !important;
+				text-decoration: none;
+				text-transform: none;
+				margin:0 10px 0 30px;
+				background-image: url(images/16.png);
+				background-repeat:no-repeat;
+				background-position:5% 50%;
+				cursor:pointer;
+			}
+		
+			.WooZoneLite-cart-checkout .WooZoneLite-button:hover {
+				background: #EF6C00 none repeat scroll 0 0;
+				background-image: url(images/16.png);
+				background-repeat:no-repeat;
+				background-position:5% 50%;
+			}
+			.WooZoneLite-cart-checkout .WooZoneLite-button.cancel {
+				background: #b181a7 none repeat scroll 0 0;
+				padding: 5px 20px 5px 20px !important;
+				margin:0 10px 0 0px;
+			}
+			.WooZoneLite-cart-checkout .WooZoneLite-button.cancel:hover {
+				background: #d3aaca none repeat scroll 0 0;
+			}
+
+.WooZoneLite-cart-checkout .WooZoneLite-cart-fakeform {
+	display: inline-block;
+}
+
+
+.WooZoneLite-order-lineitems {
+}
+	.WooZoneLite-order-lineitem {
+		display: block;
+		margin-top: .5em;
+		font-size: .92em!important;
+		color: #888;
+	}
+		.WooZoneLite-order-lineitem > div {
+			display: inline-block;
+			margin-right: 25px;
+			vertical-align: top;
+		}
+		.WooZoneLite-order-lineitem > div.asin,
+		.WooZoneLite-order-lineitem > div.parentasin {
+		}
+
+.WooZoneLite-cart-checkout .WooZoneLite-cc_order_totals {
+	display: inline-block;
+}
+.WooZoneLite-cart-checkout .WooZoneLite-dp-pricebox {
+	display: inline-block;
+	vertical-align: top;
+}
+.WooZoneLite-cart-checkout .WooZoneLite-cart-order-gtotal {
+	text-align: right;
+}
+
+.WooZoneLite-order-lineitems .WooZoneLite_finalprice_field,
+.WooZoneLite-cart-checkout .WooZoneLite_finalprice_field {
+	padding: 0px !important;
+	background-color: transparent;
+	line-height: inherit;
+	margin: 0px;
+}
+	.WooZoneLite-order-lineitems .WooZoneLite_finalprice_field label,
+	.WooZoneLite-cart-checkout .WooZoneLite_finalprice_field label {
+		float: none;
+		width: auto;
+		margin: 0px;
+		display: inline-block;
+		margin-right: 0px;
+		vertical-align: top;
+		font-weight: bold;
+		font-size: 14px;
+		color: #404040;
+	}
+	.WooZoneLite-order-lineitems .WooZoneLite_finalprice_field .WooZoneLite-dp-pricebox-price,
+	.WooZoneLite-cart-checkout .WooZoneLite_finalprice_field .WooZoneLite-dp-pricebox-price {
+		display: inline-block;
+	}
+
+#woocommerce-order-items .wc-order-totals .refunded-total.WooZoneLite-dptax-profit {
+	color: #4caf50;
+	font-weight: bold;
+}
+
+.WooZoneLite-order-amzprods > h2 select {
+	margin-left: 10px;
+}
+
+.WooZoneLite-marker-order-hasamazon {
+	background: #232f3e;
+	color: #fff;
+	margin-right: 10px;
+	border-radius: 4px;
+	padding: 5px 10px 6px 30px;
+	display: inline-block;
+	border: 1px solid #f6f6f6;
+	position: relative;
+	font-size: 13px;
+	text-shadow: none;
+	line-height: 16px;
+	height: 16px;
+}
+	.WooZoneLite-marker-order-hasamazon img {
+		position: absolute;
+		top: 5px;
+		left: 10px;
+		margin: 0px !important;
+	}
+.WooZoneLite-marker-order-hasdptax {
+	background: #232f3e;
+}
+
+h2.woocommerce-order-data__heading .WooZoneLite-marker-order-hasamazon {
+	vertical-align: top;
+	height: 16px;
+}
+
+.WooZoneLite-marker-order-amzstatus {
+	background: #ECEFF1;
+	color: #263238;
+	display: inline-flex;
+	line-height: 2.5em;
+	border-radius: 4px;
+	border-bottom: 1px solid rgba(0,0,0,.05);
+	margin: -.25em 0;
+	margin-right: 10px;
+	cursor: inherit !important;
+	white-space: nowrap;
+	max-width: 100%;
+	word-wrap: break-word;
+	text-decoration: none;
+}
+.WooZoneLite-marker-order-amzstatus.new {
+	background: #ECEFF1;
+	color: #263238;
+}
+.WooZoneLite-marker-order-amzstatus.processing {
+	background: #B0BEC5;
+	color: #263238;
+}
+.WooZoneLite-marker-order-amzstatus.completed {
+	background: #388E3C;
+	color: #FAFAFA;
+}
+.WooZoneLite-marker-order-amzstatus.error {
+	background: #d32f2f;
+	color: #FAFAFA;
+}
+	.WooZoneLite-marker-order-amzstatus span {
+		margin: 0 1em;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+
+.fa-lg.fa-external-link {
+	font-size: 14px;
+	color: #263238;
+}

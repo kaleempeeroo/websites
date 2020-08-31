@@ -1,0 +1,962 @@
+{
+"VariationsResult": {
+"VariationSummary": {
+  "PageCount": 2,
+  "Price": {
+    "HighestPrice": {
+      "Amount": 30.87,
+      "Currency": "GBP",
+      "DisplayAmount": "£30.87"
+    },
+    "LowestPrice": {
+      "Amount": 17.03,
+      "Currency": "GBP",
+      "DisplayAmount": "£17.03"
+    }
+  },
+  "VariationCount": 13,
+  "VariationDimensions": [
+    {
+      "DisplayName": "Size",
+      "Name": "size_name",
+      "Values": [
+        "One Size"
+      ]
+    },
+    {
+      "DisplayName": "Colour",
+      "Name": "color_name",
+      "Values": [
+        "Brown",
+        "Navy",
+        "Black",
+        "Burgundy",
+        "Cognac",
+        "Gray",
+        "Green",
+        "Logan - Tan",
+        "Navy/Black",
+        "Red",
+        "Rfid-black",
+        "Rfid-navy",
+        "Tan"
+      ]
+    }
+  ]
+},
+"Items": [
+  {
+    "ASIN": "B019MNBMS4",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B019MNBMS4?tag=xyz-20&linkCode=ogv&th=1&psc=1",
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "Tommy Hilfiger Men's Ranger Leather Passcase Wallet with Removable Card Holder,Navy,One Size",
+        "Label": "Title",
+        "Locale": "en_GB"
+      }
+    },
+    "VariationAttributes": [
+      {
+        "Name": "size_name",
+        "Value": "One Size"
+      },
+      {
+        "Name": "color_name",
+        "Value": "Navy"
+      }
+    ],
+    "Offers": {
+      "Listings": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "Id": "uXlVLdDbCfHTdwfSFF7G%2BXRQ%2BIf8pMbI9B29z2mv0j%2FlMKBGhOCuuRSa0ki%2BuUF9797EBbf%2F9BsG8swcjX6LubdAPmkHl%2Fuw6GxVI3nSInXfBzbdTRdTuQ%3D%3D",
+          "Price": {
+            "Amount": 119,
+            "Currency": "USD",
+            "DisplayAmount": "$119.00",
+            "PricePerUnit": 0.22
+          },
+          "SavingBasis": {
+            "Amount": 319,
+            "Currency": "USD",
+            "DisplayAmount": "$319.00",
+            "PricePerUnit": 0.25
+          },
+          "ViolatesMAP": false
+        }
+      ],
+      "Summaries": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "LowestPrice": {
+            "Amount": 18,
+            "Currency": "USD",
+            "DisplayAmount": "$18.00",
+            "PricePerUnit": 0.21
+          }
+        }
+      ]
+    },
+    "Images": {
+      "Primary": {
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      },
+      "Variants": [{
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      }]
+    }
+  },
+  {
+    "ASIN": "B073211XCB",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B073211XCB?tag=xyz-20&linkCode=ogv&th=1&psc=1",
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "Tommy Hilfiger mens Rfid Blocking 100% Leather Passcase Wallet Wallet - Brown -",
+        "Label": "Title",
+        "Locale": "en_GB"
+      }
+    },
+    "VariationAttributes": [
+      {
+        "Name": "size_name",
+        "Value": "One Size"
+      },
+      {
+        "Name": "color_name",
+        "Value": "Logan - Tan"
+      }
+    ],
+    "Offers": {
+      "Listings": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "Id": "uXlVLdDbCfHTdwfSFF7G%2BXRQ%2BIf8pMbI9B29z2mv0j%2FlMKBGhOCuuRSa0ki%2BuUF9797EBbf%2F9BsG8swcjX6LubdAPmkHl%2Fuw6GxVI3nSInXfBzbdTRdTuQ%3D%3D",
+          "Price": {
+            "Amount": 29,
+            "Currency": "USD",
+            "DisplayAmount": "$29.00",
+            "PricePerUnit": 0.22
+          },
+          "SavingBasis": {
+            "Amount": 329,
+            "Currency": "USD",
+            "DisplayAmount": "$329.00",
+            "PricePerUnit": 0.25
+          },
+          "ViolatesMAP": false
+        }
+      ],
+      "Summaries": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "LowestPrice": {
+            "Amount": 28,
+            "Currency": "USD",
+            "DisplayAmount": "$28.00",
+            "PricePerUnit": 0.21
+          }
+        }
+      ]
+    },
+    "Images": {
+      "Primary": {
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      },
+      "Variants": [{
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      }]
+    }
+  },
+  {
+    "ASIN": "B00422MCW6",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B00422MCW6?tag=xyz-20&linkCode=ogv&th=1&psc=1",
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "Tommy Hilfiger Men's Ranger Leather Passcase Wallet with Removable Card Holder,Black,One Size",
+        "Label": "Title",
+        "Locale": "en_GB"
+      }
+    },
+    "VariationAttributes": [
+      {
+        "Name": "size_name",
+        "Value": "One Size"
+      },
+      {
+        "Name": "color_name",
+        "Value": "Black"
+      }
+    ],
+    "Offers": {
+      "Listings": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "Id": "uXlVLdDbCfHTdwfSFF7G%2BXRQ%2BIf8pMbI9B29z2mv0j%2FlMKBGhOCuuRSa0ki%2BuUF9797EBbf%2F9BsG8swcjX6LubdAPmkHl%2Fuw6GxVI3nSInXfBzbdTRdTuQ%3D%3D",
+          "Price": {
+            "Amount": 39,
+            "Currency": "USD",
+            "DisplayAmount": "$39.00",
+            "PricePerUnit": 0.22
+          },
+          "SavingBasis": {
+            "Amount": 339,
+            "Currency": "USD",
+            "DisplayAmount": "$339.00",
+            "PricePerUnit": 0.25
+          },
+          "ViolatesMAP": false
+        }
+      ],
+      "Summaries": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "LowestPrice": {
+            "Amount": 38,
+            "Currency": "USD",
+            "DisplayAmount": "$38.00",
+            "PricePerUnit": 0.21
+          }
+        }
+      ]
+    },
+    "Images": {
+      "Primary": {
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      },
+      "Variants": [{
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      }]
+    }
+  },
+  {
+    "ASIN": "B01M2C97VG",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B01M2C97VG?tag=xyz-20&linkCode=ogv&th=1&psc=1",
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "Tommy Hilfiger Men's Ranger Leather Passcase Wallet with Removable Card Holder,Cognac,One Size",
+        "Label": "Title",
+        "Locale": "en_GB"
+      }
+    },
+    "VariationAttributes": [
+      {
+        "Name": "size_name",
+        "Value": "One Size"
+      },
+      {
+        "Name": "color_name",
+        "Value": "Cognac"
+      }
+    ],
+    "Offers": {
+      "Listings": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "Id": "uXlVLdDbCfHTdwfSFF7G%2BXRQ%2BIf8pMbI9B29z2mv0j%2FlMKBGhOCuuRSa0ki%2BuUF9797EBbf%2F9BsG8swcjX6LubdAPmkHl%2Fuw6GxVI3nSInXfBzbdTRdTuQ%3D%3D",
+          "Price": {
+            "Amount": 49,
+            "Currency": "USD",
+            "DisplayAmount": "$49.00",
+            "PricePerUnit": 0.22
+          },
+          "SavingBasis": {
+            "Amount": 349,
+            "Currency": "USD",
+            "DisplayAmount": "$349.00",
+            "PricePerUnit": 0.25
+          },
+          "ViolatesMAP": false
+        }
+      ],
+      "Summaries": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "LowestPrice": {
+            "Amount": 48,
+            "Currency": "USD",
+            "DisplayAmount": "$48.00",
+            "PricePerUnit": 0.21
+          }
+        }
+      ]
+    },
+    "Images": {
+      "Primary": {
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      },
+      "Variants": [{
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      }]
+    }
+  },
+  {
+    "ASIN": "B00422MCVW",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B00422MCVW?tag=xyz-20&linkCode=ogv&th=1&psc=1",
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "Tommy Hilfiger Men's Ranger Leather Passcase Wallet with Removable Card Holder,Brown,One Size",
+        "Label": "Title",
+        "Locale": "en_GB"
+      }
+    },
+    "VariationAttributes": [
+      {
+        "Name": "size_name",
+        "Value": "One Size"
+      },
+      {
+        "Name": "color_name",
+        "Value": "Brown"
+      }
+    ],
+    "Offers": {
+      "Listings": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "Id": "uXlVLdDbCfHTdwfSFF7G%2BXRQ%2BIf8pMbI9B29z2mv0j%2FlMKBGhOCuuRSa0ki%2BuUF9797EBbf%2F9BsG8swcjX6LubdAPmkHl%2Fuw6GxVI3nSInXfBzbdTRdTuQ%3D%3D",
+          "Price": {
+            "Amount": 59,
+            "Currency": "USD",
+            "DisplayAmount": "$59.00",
+            "PricePerUnit": 0.22
+          },
+          "SavingBasis": {
+            "Amount": 359,
+            "Currency": "USD",
+            "DisplayAmount": "$359.00",
+            "PricePerUnit": 0.25
+          },
+          "ViolatesMAP": false
+        }
+      ],
+      "Summaries": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "LowestPrice": {
+            "Amount": 58,
+            "Currency": "USD",
+            "DisplayAmount": "$58.00",
+            "PricePerUnit": 0.21
+          }
+        }
+      ]
+    },
+    "Images": {
+      "Primary": {
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      },
+      "Variants": [{
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      }]
+    }
+  },
+  {
+    "ASIN": "B00422MCVM",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B00422MCVM?tag=xyz-20&linkCode=ogv&th=1&psc=1",
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "Tommy Hilfiger Men's Ranger Leather Passcase Wallet with Removable Card Holder,Tan,One Size",
+        "Label": "Title",
+        "Locale": "en_GB"
+      }
+    },
+    "VariationAttributes": [
+      {
+        "Name": "size_name",
+        "Value": "One Size"
+      },
+      {
+        "Name": "color_name",
+        "Value": "Tan"
+      }
+    ],
+    "Offers": {
+      "Listings": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "Id": "uXlVLdDbCfHTdwfSFF7G%2BXRQ%2BIf8pMbI9B29z2mv0j%2FlMKBGhOCuuRSa0ki%2BuUF9797EBbf%2F9BsG8swcjX6LubdAPmkHl%2Fuw6GxVI3nSInXfBzbdTRdTuQ%3D%3D",
+          "Price": {
+            "Amount": 99,
+            "Currency": "USD",
+            "DisplayAmount": "$99.00",
+            "PricePerUnit": 0.22
+          },
+          "SavingBasis": {
+            "Amount": 399,
+            "Currency": "USD",
+            "DisplayAmount": "$399.00",
+            "PricePerUnit": 0.25
+          },
+          "ViolatesMAP": false
+        }
+      ],
+      "Summaries": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "LowestPrice": {
+            "Amount": 98,
+            "Currency": "USD",
+            "DisplayAmount": "$98.00",
+            "PricePerUnit": 0.21
+          }
+        }
+      ]
+    },
+    "Images": {
+      "Primary": {
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      },
+      "Variants": [{
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      }]
+    }
+  },
+  {
+    "ASIN": "B01M5J1551",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B01M5J1551?tag=xyz-20&linkCode=ogv&th=1&psc=1",
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "Tommy Hilfiger Men's Ranger Leather Passcase Wallet with Removable Card Holder,Red,One Size",
+        "Label": "Title",
+        "Locale": "en_GB"
+      }
+    },
+    "VariationAttributes": [
+      {
+        "Name": "size_name",
+        "Value": "One Size"
+      },
+      {
+        "Name": "color_name",
+        "Value": "Red"
+      }
+    ],
+    "Offers": {
+      "Listings": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "Id": "uXlVLdDbCfHTdwfSFF7G%2BXRQ%2BIf8pMbI9B29z2mv0j%2FlMKBGhOCuuRSa0ki%2BuUF9797EBbf%2F9BsG8swcjX6LubdAPmkHl%2Fuw6GxVI3nSInXfBzbdTRdTuQ%3D%3D",
+          "Price": {
+            "Amount": 89,
+            "Currency": "USD",
+            "DisplayAmount": "$89.00",
+            "PricePerUnit": 0.22
+          },
+          "SavingBasis": {
+            "Amount": 389,
+            "Currency": "USD",
+            "DisplayAmount": "$389.00",
+            "PricePerUnit": 0.25
+          },
+          "ViolatesMAP": false
+        }
+      ],
+      "Summaries": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "LowestPrice": {
+            "Amount": 88,
+            "Currency": "USD",
+            "DisplayAmount": "$88.00",
+            "PricePerUnit": 0.21
+          }
+        }
+      ]
+    },
+    "Images": {
+      "Primary": {
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      },
+      "Variants": [{
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      }]
+    }
+  },
+  {
+    "ASIN": "B07321HQRM",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B07321HQRM?tag=xyz-20&linkCode=ogv&th=1&psc=1",
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "Tommy Hilfiger mens Ranger Passcase Wallet Wallet - Black -",
+        "Label": "Title",
+        "Locale": "en_GB"
+      }
+    },
+    "VariationAttributes": [
+      {
+        "Name": "size_name",
+        "Value": "One Size"
+      },
+      {
+        "Name": "color_name",
+        "Value": "Rfid-black"
+      }
+    ],
+    "Offers": {
+      "Listings": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "Id": "uXlVLdDbCfHTdwfSFF7G%2BXRQ%2BIf8pMbI9B29z2mv0j%2FlMKBGhOCuuRSa0ki%2BuUF9797EBbf%2F9BsG8swcjX6LubdAPmkHl%2Fuw6GxVI3nSInXfBzbdTRdTuQ%3D%3D",
+          "Price": {
+            "Amount": 79,
+            "Currency": "USD",
+            "DisplayAmount": "$79.00",
+            "PricePerUnit": 0.22
+          },
+          "SavingBasis": {
+            "Amount": 379,
+            "Currency": "USD",
+            "DisplayAmount": "$379.00",
+            "PricePerUnit": 0.25
+          },
+          "ViolatesMAP": false
+        }
+      ],
+      "Summaries": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "LowestPrice": {
+            "Amount": 78,
+            "Currency": "USD",
+            "DisplayAmount": "$78.00",
+            "PricePerUnit": 0.21
+          }
+        }
+      ]
+    },
+    "Images": {
+      "Primary": {
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      },
+      "Variants": [{
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      }]
+    }
+  },
+  {
+    "ASIN": "B01MG81M6E",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B01MG81M6E?tag=xyz-20&linkCode=ogv&th=1&psc=1",
+    "ItemInfo": {
+      "Title": {
+        "Value": "Tommy Hilfiger Men's Ranger Leather Passcase Wallet with Removable Card Holder,Green,One Size",
+        "Label": "Title",
+        "Locale": "en_GB"
+      }
+    },
+    "VariationAttributes": [
+      {
+        "Name": "size_name",
+        "Value": "One Size"
+      },
+      {
+        "Name": "color_name",
+        "Value": "Green"
+      }
+    ],
+    "Offers": {
+      "Listings": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "Id": "uXlVLdDbCfHTdwfSFF7G%2BXRQ%2BIf8pMbI9B29z2mv0j%2FlMKBGhOCuuRSa0ki%2BuUF9797EBbf%2F9BsG8swcjX6LubdAPmkHl%2Fuw6GxVI3nSInXfBzbdTRdTuQ%3D%3D",
+          "Price": {
+            "Amount": 69,
+            "Currency": "USD",
+            "DisplayAmount": "$69.00",
+            "PricePerUnit": 0.22
+          },
+          "SavingBasis": {
+            "Amount": 369,
+            "Currency": "USD",
+            "DisplayAmount": "$369.00",
+            "PricePerUnit": 0.25
+          },
+          "ViolatesMAP": false
+        }
+      ],
+      "Summaries": [
+        {
+          "Condition": {
+            "DisplayValue": "nuevo",
+            "Label": "Condición",
+            "Locale": "es_US",
+            "Value": "New"
+          },
+          "LowestPrice": {
+            "Amount": 68,
+            "Currency": "USD",
+            "DisplayAmount": "$68.00",
+            "PricePerUnit": 0.21
+          }
+        }
+      ]
+    },
+    "Images": {
+      "Primary": {
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/41FYkVPzrIL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      },
+      "Variants": [{
+       "Small": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL75_.jpg",
+        "Height": 75,
+        "Width": 75
+       },
+       "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+       },
+       "Large": {
+        "URL": "https://m.media-amazon.com/images/I/51CjYz4iQHL.jpg",
+        "Height": 500,
+        "Width": 500
+       }
+      }]
+    }
+  },
+  {
+    "ASIN": "B0731XHR2W",
+    "DetailPageURL": "https://www.amazon.co.uk/dp/B0731XHR2W?tag=xyz-20&linkCode=ogv&th=1&psc=1",
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "Tommy Hilfiger mens Ranger Passcase Wallet Wallet - Blue -",
+        "Label": "Title",
+        "Locale": "en_GB"
+      }
+    },
+    "VariationAttributes": [
+      {
+        "Name": "size_name",
+        "Value": "One Size"
+      },
+      {
+        "Name": "color_name",
+        "Value": "Rfid-navy"
+      }
+    ]
+  }
+]
+}
+}

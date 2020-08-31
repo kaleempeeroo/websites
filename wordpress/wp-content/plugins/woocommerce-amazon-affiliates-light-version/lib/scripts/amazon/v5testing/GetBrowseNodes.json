@@ -1,0 +1,36 @@
+{
+"Errors": [
+  {
+    "__type": "com.amazon.paapi5#ErrorData",
+    "Code": "InvalidParameterValue",
+    "Message": "The BrowseNodeId 0 provided in the request is invalid."
+  }
+],
+"BrowseNodesResult": {
+  "BrowseNodes": [
+    {
+      "Id": "283155",
+      "DisplayName": "Books",
+      "ContextFreeName": "Books",
+      "IsRoot": false,
+      "Children": [
+        {
+          "ContextFreeName": "Subjects",
+          "DisplayName": "Subjects",
+          "Id": "1000"
+        },
+        {
+          "ContextFreeName": "Books Featured Categories",
+          "DisplayName": "Books Featured Categories",
+          "Id": "51546011"
+        },
+        {
+          "ContextFreeName": "Specialty Boutique",
+          "DisplayName": "Specialty Boutique",
+          "Id": "2349030011"
+        }
+      ]
+    }
+  ]
+}
+}

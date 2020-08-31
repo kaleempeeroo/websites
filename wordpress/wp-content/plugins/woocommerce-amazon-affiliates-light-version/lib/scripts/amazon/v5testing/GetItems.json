@@ -1,0 +1,346 @@
+{
+"Errors": [
+  {
+    "__type": "com.amazon.paapi#ErrorData",
+    "Code": "ItemNotAccessible",
+    "Message": "The ItemId B01180YUXS is not accessible through the Product Advertising API."
+  }
+],
+"ItemsResult": {
+"Items": [
+{
+  "ASIN": "B0199980K4",
+  "DetailPageURL": "https://www.amazon.com/dp/B0199980K4?tag=xyz-20&linkCode=ogi&language=en_US&th=1&psc=1",
+  "BrowseNodeInfo": {
+    "WebsiteSalesRank": {
+      "DisplayName": "Books",
+      "ContextFreeName": "Books",
+      "SalesRank": 101
+    },
+    "BrowseNodes": [
+      {
+        "Id": "3060",
+        "DisplayName": "Orphans & Foster Homes",
+        "ContextFreeName": "Children's Orphans & Foster Homes Books",
+        "IsRoot": false,
+        "SalesRank": 1,
+        "Ancestor": {
+          "Id": "3045",
+          "DisplayName": "Family Life",
+          "ContextFreeName": "Children's Family Life Books",
+          "Ancestor": {
+            "Id": "1084192",
+            "DisplayName": "Growing Up & Facts of Life",
+            "ContextFreeName": "Children's Growing Up & Facts of Life Books",
+            "Ancestor": {
+              "Id": "4",
+              "DisplayName": "Children's Books",
+              "ContextFreeName": "Children's Books",
+              "Ancestor": {
+                "Id": "1000",
+                "DisplayName": "Subjects",
+                "ContextFreeName": "Subjects",
+                "Ancestor": {
+                  "Id": "283155",
+                  "DisplayName": "Books",
+                  "ContextFreeName": "Books"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "Images": {
+    "Primary": {
+      "Small": {
+        "Height": 75,
+        "URL": "https://m.media-amazon.com/images/I/61s4tTAizUL._SL75_.jpg",
+        "Width": 56
+      },
+      "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/61s4tTAizUL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Large": {
+        "URL": "https://m.media-amazon.com/images/I/61s4tTAizUL.jpg",
+        "Height": 500,
+        "Width": 500
+      }
+    }
+  },
+  "ItemInfo": {
+    "Title": {
+      "DisplayValue": "testprodgetitems1 - Genghis: The Legend of the Ten",
+      "Label": "Title",
+      "Locale": "en_US"
+    }
+  },
+  "Offers": {
+    "Listings": [
+      {
+        "Condition": {
+          "DisplayValue": "nuevo",
+          "Label": "Condición",
+          "Locale": "es_US",
+          "Value": "New"
+        },
+        "Id": "uXlVLdDbCfHTdwfSFF7G%2BXRQ%2BIf8pMbI9B29z2mv0j%2FlMKBGhOCuuRSa0ki%2BuUF9797EBbf%2F9BsG8swcjX6LubdAPmkHl%2Fuw6GxVI3nSInXfBzbdTRdTuQ%3D%3D",
+        "MerchantInfo": {
+          "DefaultShippingCountry": "US",
+          "Id": "ATVPDKIKX0DER",
+          "Name": "Amazon.com"
+        },
+        "Price": {
+          "Amount": 111.99,
+          "Currency": "USD",
+          "DisplayAmount": "$111.99",
+          "PricePerUnit": 0.22
+        },
+        "SavingBasis": {
+          "Amount": 112.99,
+          "Currency": "USD",
+          "DisplayAmount": "$112.99",
+          "PricePerUnit": 0.25
+        },
+        "ViolatesMAP": false
+      }
+    ],
+    "Summaries": [
+      {
+        "Condition": {
+          "DisplayValue": "nuevo",
+          "Label": "Condición",
+          "Locale": "es_US",
+          "Value": "New"
+        },
+        "LowestPrice": {
+          "Amount": 11.99,
+          "Currency": "USD",
+          "DisplayAmount": "$11.99"
+        }
+      }
+    ]
+  }
+},
+{
+  "ASIN": "B00BKQTA4A",
+  "DetailPageURL": "https://www.amazon.com/dp/B00BKQTA4A?tag=xyz-20&linkCode=ogi&language=en_US&th=1&psc=1",
+  "BrowseNodeInfo": {
+    "WebsiteSalesRank": {
+      "DisplayName": "Books",
+      "ContextFreeName": "Books",
+      "SalesRank": 102
+    },
+    "BrowseNodes": [
+      {
+        "Id": "3060",
+        "DisplayName": "Orphans & Foster Homes",
+        "ContextFreeName": "Children's Orphans & Foster Homes Books",
+        "IsRoot": false,
+        "SalesRank": 2,
+        "Ancestor": {
+          "Id": "3045",
+          "DisplayName": "Family Life",
+          "ContextFreeName": "Children's Family Life Books",
+          "Ancestor": {
+            "Id": "1084192",
+            "DisplayName": "Growing Up & Facts of Life",
+            "ContextFreeName": "Children's Growing Up & Facts of Life Books",
+            "Ancestor": {
+              "Id": "4",
+              "DisplayName": "Children's Books",
+              "ContextFreeName": "Children's Books",
+              "Ancestor": {
+                "Id": "1000",
+                "DisplayName": "Subjects",
+                "ContextFreeName": "Subjects",
+                "Ancestor": {
+                  "Id": "283155",
+                  "DisplayName": "Books",
+                  "ContextFreeName": "Books"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "Images": {
+    "Primary": {
+      "Small": {
+        "Height": 75,
+        "URL": "https://m.media-amazon.com/images/I/41OiLOcQVJL._SL75_.jpg",
+        "Width": 46
+      },
+      "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/41OiLOcQVJL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Large": {
+        "URL": "https://m.media-amazon.com/images/I/41OiLOcQVJL.jpg",
+        "Height": 500,
+        "Width": 500
+      }
+    }
+  },
+  "ItemInfo": {
+    "Features": {
+      "DisplayValues": [
+        "testprodgetitems2 - Round watch featuring logoed white dial with stick indices",
+        "36 mm stainless steel case with mineral dial window",
+        "Quartz movement with analog display",
+        "Leather calfskin band with buckle closure",
+        "Water resistant to 30 m (99 ft): In general, withstands splashes or brief immersion in water, but not suitable for swimming"
+      ],
+      "Label": "Features",
+      "Locale": "en_US"
+    },
+    "Title": {
+      "DisplayValue": "testprodgetitems2 - Daniel Wellington Women's 0608DW Sheffield Stainless Steel Watch",
+      "Label": "Title",
+      "Locale": "en_US"
+    }
+  },
+  "Offers": {
+    "Listings": [
+      {
+        "Condition": {
+          "DisplayValue": "nuevo",
+          "Label": "Condición",
+          "Locale": "es_US",
+          "Value": "New"
+        },
+        "Id": "uXlVLdDbCfHTdwfSFF7G%2BXRQ%2BIf8pMbI9B29z2mv0j%2FlMKBGhOCuuRSa0ki%2BuUF9797EBbf%2F9BsG8swcjX6LubdAPmkHl%2Fuw6GxVI3nSInXfBzbdTRdTuQ%3D%3D",
+        "MerchantInfo": {
+          "DefaultShippingCountry": "US",
+          "Id": "ATVPDKIKX0DER",
+          "Name": "Amazon.com"
+        },
+        "Price": {
+          "Amount": 1199,
+          "Currency": "USD",
+          "DisplayAmount": "$1199.00",
+          "PricePerUnit": 0.22
+        },
+        "SavingBasis": {
+          "Amount": 1299,
+          "Currency": "USD",
+          "DisplayAmount": "$1299.00",
+          "PricePerUnit": 0.25
+        },
+        "ViolatesMAP": false
+      }
+    ],
+    "Summaries": [
+      {
+        "Condition": {
+          "DisplayValue": "nuevo",
+          "Label": "Condición",
+          "Locale": "es_US",
+          "Value": "New"
+        },
+        "LowestPrice": {
+          "Amount": 199,
+          "Currency": "USD",
+          "DisplayAmount": "$199.00"
+        }
+      }
+    ]
+  }
+},
+{
+  "ASIN": "B000HZD168",
+  "DetailPageURL": "https://www.amazon.com/dp/B000HZD168?tag=xyz-20&linkCode=ogi&language=en_US&th=1&psc=1",
+  "BrowseNodeInfo": {
+    "WebsiteSalesRank": {
+      "DisplayName": "Books",
+      "ContextFreeName": "Books",
+      "SalesRank": 103
+    },
+    "BrowseNodes": [
+      {
+        "Id": "3060",
+        "DisplayName": "Orphans & Foster Homes",
+        "ContextFreeName": "Children's Orphans & Foster Homes Books",
+        "IsRoot": false,
+        "SalesRank": 3,
+        "Ancestor": {
+          "Id": "3045",
+          "DisplayName": "Family Life",
+          "ContextFreeName": "Children's Family Life Books",
+          "Ancestor": {
+            "Id": "1084192",
+            "DisplayName": "Growing Up & Facts of Life",
+            "ContextFreeName": "Children's Growing Up & Facts of Life Books",
+            "Ancestor": {
+              "Id": "4",
+              "DisplayName": "Children's Books",
+              "ContextFreeName": "Children's Books",
+              "Ancestor": {
+                "Id": "1000",
+                "DisplayName": "Subjects",
+                "ContextFreeName": "Subjects",
+                "Ancestor": {
+                  "Id": "283155",
+                  "DisplayName": "Books",
+                  "ContextFreeName": "Books"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "Images": {
+    "Primary": {
+      "Small": {
+        "Height": 75,
+        "URL": "https://m.media-amazon.com/images/I/61ZRPpZoBvL._SL75_.jpg",
+        "Width": 56
+      },
+      "Medium": {
+        "URL": "https://m.media-amazon.com/images/I/61ZRPpZoBvL._SL160_.jpg",
+        "Height": 160,
+        "Width": 160
+      },
+      "Large": {
+        "URL": "https://m.media-amazon.com/images/I/61ZRPpZoBvL.jpg",
+        "Height": 500,
+        "Width": 500
+      }
+    }
+  },
+  "ItemInfo": {
+    "Title": {
+      "DisplayValue": "testprodgetitems3 - Star Trek II: The Wrath of Khan",
+      "Label": "Title",
+      "Locale": "en_US"
+    }
+  },
+  "Offers": {
+    "Summaries": [
+      {
+        "Condition": {
+          "DisplayValue": "nuevo",
+          "Label": "Condición",
+          "Locale": "es_US",
+          "Value": "New"
+        },
+        "LowestPrice": {
+          "Amount": 9.99,
+          "Currency": "USD",
+          "DisplayAmount": "$9.99"
+        }
+      }
+    ]
+  }
+}
+]
+}
+}

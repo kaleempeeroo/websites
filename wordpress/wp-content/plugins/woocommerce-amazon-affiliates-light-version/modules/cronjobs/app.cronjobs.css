@@ -1,0 +1,61 @@
+/* Cronjobs module */
+.WooZoneLite-form .WooZoneLite-form-row.WooZoneLite-cj-help {
+	padding-top: 10px;	
+}
+
+.WooZoneLite-cj-list #WooZoneLite-cj-table .WooZoneLite-row-loading-marker {
+    position: relative;
+    left: 5px;
+    top: -5px;
+    padding: 0;
+}
+.WooZoneLite-cj-list #WooZoneLite-cj-table .WooZoneLite-row-loading {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	margin-left: -10px;
+	margin-top: -12px;
+	padding: 0px;
+	background-color: #484848;
+	background-color: rgba(207, 222, 247, 0.8);
+}
+
+.WooZoneLite-cj-list {
+	position: relative;
+}
+	.WooZoneLite-cj-list #WooZoneLite-main-loading {
+		top: 0;
+		left: 0;
+	}
+		.WooZoneLite-cj-list #WooZoneLite-main-loading #WooZoneLite-loading-box {
+			top: 50px;
+		}
+.WooZoneLite-cj-list #WooZoneLite-cj-reload {
+	float: right;
+	margin-bottom: 5px;
+}
+.WooZoneLite-cj-list #WooZoneLite-cj-reinit {
+	float: left;
+}
+.WooZoneLite-cj-list #WooZoneLite-cj-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+	.WooZoneLite-cj-list #WooZoneLite-cj-table, #WooZoneLite-cj-table th, #WooZoneLite-cj-table td {
+		border: 1px solid green;
+		text-align: left;
+		vertical-align: bottom;
+	}
+	.WooZoneLite-cj-list #WooZoneLite-cj-table th, #WooZoneLite-cj-table td {
+		padding: 5px;
+	}
+	.WooZoneLite-cj-list #WooZoneLite-cj-table tr.cut td:first-child {
+		text-decoration: line-through;
+	}
+
+.WooZoneLite-cj-col-status a {
+	margin-left: 10px;
+}

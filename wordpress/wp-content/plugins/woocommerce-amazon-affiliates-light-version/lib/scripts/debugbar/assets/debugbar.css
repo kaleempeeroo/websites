@@ -1,0 +1,246 @@
+/***********************************************/
+/* WP ADMIN BAR */
+/***********************************************/
+
+#wp-admin-bar-woozonelite-debugbar-placeholder,
+#wp-admin-bar-woozonelite-debugbar-default {
+	display: none;
+}
+
+#wpadminbar > #wp-toolbar > #wp-admin-bar-root-default #wp-admin-bar-woozonelite-debugbar > .ab-item > .ab-icon,
+#wpadminbar #wp-admin-bar-woozonelite-debugbar > .ab-item > .ab-icon {
+	/*margin-top: 9px;*/
+}
+	#wpadminbar #wp-admin-bar-woozonelite-debugbar > .ab-item > .ab-icon:before {
+	}
+
+/* frontend fix */
+body:not(.wp-admin) #wpadminbar #wp-admin-bar-woozonelite-debugbar > .ab-item > .ab-icon img{
+	width: 12px;
+	height: 12px;
+	position: relative;
+	top:-3px;
+}
+
+
+
+/***********************************************/
+/* MAIN BOX */
+/***********************************************/
+
+/* debugbar box : some resets & general classes */
+#woozonelite-debugbar,
+#woozonelite-debugbar button,
+#woozonelite-debugbar label,
+#woozonelite-debugbar select,
+#woozonelite-debugbar table,
+#woozonelite-debugbar td,
+#woozonelite-debugbar th,
+#woozonelite-debugbar ul,
+#woozonelite-debugbar ol,
+#woozonelite-debugbar li,
+#woozonelite-debugbar code,
+#woozonelite-debugbar a,
+#woozonelite-debugbar caption,
+#woozonelite-debugbar h1,
+#woozonelite-debugbar h2,
+#woozonelite-debugbar h3,
+#woozonelite-debugbar h4,
+#woozonelite-debugbar h5,
+#woozonelite-debugbar h6,
+#woozonelite-debugbar p {
+	background: transparent !important;
+	color: #263238 !important;
+	box-sizing: border-box !important;
+	text-align: left !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-size: 12px !important;
+	line-height: 18px !important;
+	font-family: 'Arial', sans-serif !important;
+	border: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	vertical-align: top !important;
+	text-shadow: none !important;
+	text-transform: none !important;
+	-webkit-font-smoothing: auto !important;
+	letter-spacing: normal !important;
+	border-radius: 0 !important;
+	transition: none !important;
+	word-wrap: normal !important;
+	word-break: normal !important;
+}
+
+.woozonelite-debugbar-hide {
+	display: none !important;
+}
+#woozonelite-debugbar.woozonelite-debugbar-show,
+#woozonelite-debugbar.woozonelite-debugbar-force-show {
+	height: 30px;
+	display: flex;
+	flex-direction: column;
+}
+#woozonelite-debugbar.woozonelite-debugbar-show {
+	height: 42%;
+}
+
+
+
+/* debugbar box title & buttons */
+#woozonelite-debugbar {
+	background: #fff !important;
+	margin: 0 !important;
+	border-top: 1px solid #B0BEC5 !important;
+	text-align: left !important;
+	display: none;
+	position: fixed;
+	z-index: 99999 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	width: 100% !important;
+}
+
+#woozonelite-debugbar-wrapper {
+	display: flex;
+	flex-grow: 1;
+	/* Fix nested scrolling in Firefox. See https://bugzilla.mozilla.org/show_bug.cgi?id=1043520: */
+	min-height: 0;
+}
+
+#woozonelite-debugbar-title {
+	background: #fafafb !important;
+	border-bottom: 1px solid #CFD8DC !important;
+	cursor: ns-resize !important;
+	align-items:  center;
+	display: flex !important;
+	padding: 0 2px 0 5px !important;
+	height: 30px !important;
+	flex-shrink: 0;
+}
+
+	#woozonelite-debugbar-title > img {
+		margin-right: 8px !important;
+	}
+	#woozonelite-debugbar-title > h1 {
+		flex-grow: 1;
+		border-right: 1px solid #bbb !important;
+		margin-right: 8px !important;
+	}
+
+	#woozonelite-debugbar-title div.woozonelite-debugbar-title-heading {
+		display: none;
+	}
+
+	#woozonelite-debugbar-title .woozonelite-debugbar-title-buttons {
+		flex-shrink: 0;
+	}
+
+	#woozonelite-debugbar-title .dashicons {
+		transition: none !important;
+	}
+
+	#woozonelite-debugbar-title .woozonelite-debugbar-button-pin .dashicons {
+		font-size: 14px !important;
+		margin-top: 3px !important;
+	}
+
+	#woozonelite-debugbar-title button {
+		color: #78909C !important;
+		cursor: pointer !important;
+		margin: 0 0 0 0px !important;
+		display: inline-block !important;
+		padding: 0px 2px !important;
+	}
+	#woozonelite-debugbar-title button:focus,
+	#woozonelite-debugbar-title button:hover {
+		color: #546E7A !important;
+	}
+	#woozonelite-debugbar-title button.woozonelite-debugbar-button-active {
+		color: #3194f1 !important;
+	}
+		#woozonelite-debugbar-title .woozonelite-debugbar-button-pin.woozonelite-debugbar-button-active .dashicons {
+			transform: rotate( -45deg ) !important;
+		}
+		#woozonelite-debugbar-title .woozonelite-debugbar-button-pin.woozonelite-debugbar-button-active .dashicons:before {
+			margin-left: 2px !important;
+		}
+
+
+
+/* debugbar box menu */
+#woozonelite-debugbar-menu {
+	overflow-y:  scroll !important;
+	flex-shrink: 0;
+	background: #fff !important;
+}
+
+	#woozonelite-debugbar-menu ul {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+		#woozonelite-debugbar-menu ul:after {
+			height: 30px !important;
+			content: " ";
+			display: block;
+			border-right: 1px solid #B0BEC5 !important;
+		}
+
+	#woozonelite-debugbar-menu li {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+		#woozonelite-debugbar-menu li a {
+			display: block !important;
+			padding: 8px 28px 8px 6px !important;
+			color: #37474F !important;
+			text-decoration: none !important;
+			border-bottom: 1px solid #CFD8DC !important;
+			position: relative !important;
+			border-right: 1px solid #B0BEC5 !important;
+			background: #ECEFF1 !important;
+		}
+
+		#woozonelite-debugbar-menu li a:focus,
+		#woozonelite-debugbar-menu li a:hover {
+			background: #BBDEFB !important;
+			color: #37474F !important;
+		}
+
+		#woozonelite-debugbar-menu li a.woozonelite-debugbar-selected-menu {
+			background: #0372aa !important;
+			color: #fff !important;
+		}
+
+		#woozonelite-debugbar-menu li a.woozonelite-debugbar-selected-menu:after {
+			right: -1px;
+			border: solid 8px transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+			border-right-color: #fff;
+			top: 50%;
+			margin-top: -8px;
+		}
+
+
+
+/* debugbar box rows */
+#woozonelite-debugbar-rows {
+	flex-grow: 1;
+	overflow-y: scroll;
+}
+
+	#woozonelite-debugbar-rows .woozonelite-debugbar-row {
+		display: none !important;
+		padding: 10px;
+	}
+
+	#woozonelite-debugbar-rows .woozonelite-debugbar-row-show {
+		display: block !important;
+	}

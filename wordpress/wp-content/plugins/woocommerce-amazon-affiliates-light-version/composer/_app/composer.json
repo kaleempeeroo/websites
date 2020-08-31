@@ -1,0 +1,25 @@
+{
+    "name": "woozonelite/composer",
+    "license": "MIT",
+    "description": "WooZoneLite Composer Main App",
+    "keywords": ["wzone"],
+    "type": "library",
+    "authors": [],
+    "require": {
+        "php": "^5.5.9|>=7.0.8",
+        "woozonelite/amazon-scraper": "dev-master"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {}
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../amazon-scraper",
+            "options": {
+                "symlink": true
+            }
+        }
+    ]
+}
